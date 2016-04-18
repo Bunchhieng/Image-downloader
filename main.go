@@ -12,6 +12,8 @@ import (
 	"strings"
 	"fmt"
 	"time"
+	"path/filepath"
+	"strconv"
 )
 
 // Simplify JSON struct to get images in `items` array
@@ -68,6 +70,7 @@ func main() {
 	elapsed := time.Since(start).Seconds()
 	fmt.Printf("Run time: %f secs\n", elapsed)
 	fmt.Printf("Sucess! %d images downloaded", count)
+	//cleanImg("/Users/Bunchhieng/Documents/Bunchhieng/gowork/src/github.com/Bunchhieng/facial_lipsy/img")
 }
 
 func downloadImg(url string) (res *http.Response) {
@@ -76,4 +79,24 @@ func downloadImg(url string) (res *http.Response) {
 		log.Fatal(err)
 	}
 	return res
+}
+
+func cleanImg(dir string) {
+	err := filepath.Walk(dir, printDir)
+	if err != nil {
+		log.Fatal(err)
+	}
+}
+
+func printDir(path string, info os.FileInfo, err error) error {
+	if !info.IsDir() {
+		fmt.Println(info.Name())
+		i := 1
+		os.Rename(info.Name(), strconv.Itoa(i))
+		i++
+	}
+	if err != nil {
+		return err
+	}
+	return nil
 }

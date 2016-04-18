@@ -28,6 +28,7 @@ type Item struct {
 }
 
 func main() {
+	count := 0
 	start := time.Now()
 	// Link to the Google custom search API
 	// Each request return 10 images.
@@ -52,6 +53,7 @@ func main() {
 				imgRes := downloadImg(i.Link)
 				os.Mkdir(dir + "/img/", 0777)
 				file, err := os.Create(dir + "/img/" + i.DisplayLink + "." + strings.Split(i.Mime, "/")[1])
+				count++
 				if err != nil {
 					log.Fatal(err)
 				}
@@ -65,7 +67,7 @@ func main() {
 	}
 	elapsed := time.Since(start).Seconds()
 	fmt.Printf("Run time: %f secs\n", elapsed)
-	fmt.Println("Sucess!")
+	fmt.Printf("Sucess! %d images downloaded", count)
 }
 
 func downloadImg(url string) (res *http.Response) {

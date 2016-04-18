@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="ie9 ie8 ie7 ie6" lang="en"><![endif]-->
+<!--[if IE 7]><html class="ie9 ie8 ie7" lang="en"><![endif]-->
+<!--[if IE 8]><html class="ie9 ie8" lang="en"><![endif]-->
+<!--[if IE 9]><html class="ie9" lang="en"><![endif]-->
+<!--[if gt IE 9]><!--><html lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,t,n){function r(n){if(!t[n]){var o=t[n]={exports:{}};e[n][0].call(o.exports,function(t){var o=e[n][1][t];return r(o||t)},o,o.exports)}return t[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(e,t,n){function r(e,t){return function(){o(e,[(new Date).getTime()].concat(a(arguments)),null,t)}}var o=e("handle"),i=e(2),a=e(3);"undefined"==typeof window.newrelic&&(newrelic=NREUM);var u=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit"],c=["addPageAction"],f="api-";i(u,function(e,t){newrelic[t]=r(f+t,"api")}),i(c,function(e,t){newrelic[t]=r(f+t)}),t.exports=newrelic,newrelic.noticeError=function(e){"string"==typeof e&&(e=new Error(e)),o("err",[e,(new Date).getTime()])}},{}],2:[function(e,t,n){function r(e,t){var n=[],r="",i=0;for(r in e)o.call(e,r)&&(n[i]=t(r,e[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],3:[function(e,t,n){function r(e,t,n){t||(t=0),"undefined"==typeof n&&(n=e?e.length:0);for(var r=-1,o=n-t||0,i=Array(0>o?0:o);++r<o;)i[r]=e[t+r];return i}t.exports=r},{}],ee:[function(e,t,n){function r(){}function o(e){function t(e){return e&&e instanceof r?e:e?u(e,a,i):i()}function n(n,r,o){e&&e(n,r,o);for(var i=t(o),a=l(n),u=a.length,c=0;u>c;c++)a[c].apply(i,r);var s=f[g[n]];return s&&s.push([m,n,r,i]),i}function p(e,t){w[e]=l(e).concat(t)}function l(e){return w[e]||[]}function d(e){return s[e]=s[e]||o(n)}function v(e,t){c(e,function(e,n){t=t||"feature",g[n]=t,t in f||(f[t]=[])})}var w={},g={},m={on:p,emit:n,get:d,listeners:l,context:t,buffer:v};return m}function i(){return new r}var a="nr@context",u=e("gos"),c=e(2),f={},s={},p=t.exports=o();p.backlog=f},{}],gos:[function(e,t,n){function r(e,t,n){if(o.call(e,t))return e[t];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,t,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return e[t]=r,r}var o=Object.prototype.hasOwnProperty;t.exports=r},{}],handle:[function(e,t,n){function r(e,t,n,r){o.buffer([e],r),o.emit(e,t,n)}var o=e("ee").get("handle");t.exports=r,r.ee=o},{}],id:[function(e,t,n){function r(e){var t=typeof e;return!e||"object"!==t&&"function"!==t?-1:e===window?0:a(e,i,function(){return o++})}var o=1,i="nr@id",a=e("gos");t.exports=r},{}],loader:[function(e,t,n){function r(){if(!w++){var e=v.info=NREUM.info,t=s.getElementsByTagName("script")[0];if(e&&e.licenseKey&&e.applicationID&&t){c(l,function(t,n){e[t]||(e[t]=n)});var n="https"===p.split(":")[0]||e.sslForHttp;v.proto=n?"https://":"http://",u("mark",["onload",a()],null,"api");var r=s.createElement("script");r.src=v.proto+e.agent,t.parentNode.insertBefore(r,t)}}}function o(){"complete"===s.readyState&&i()}function i(){u("mark",["domContent",a()],null,"api")}function a(){return(new Date).getTime()}var u=e("handle"),c=e(2),f=window,s=f.document;NREUM.o={ST:setTimeout,CT:clearTimeout,XHR:f.XMLHttpRequest,REQ:f.Request,EV:f.Event,PR:f.Promise,MO:f.MutationObserver},e(1);var p=""+location,l={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-918.min.js"},d=window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent),v=t.exports={offset:a(),origin:p,features:{},xhrWrappable:d};s.addEventListener?(s.addEventListener("DOMContentLoaded",i,!1),f.addEventListener("load",r,!1)):(s.attachEvent("onreadystatechange",o),f.attachEvent("onload",r)),u("mark",["firstbyte",a()],null,"api");var w=0},{}]},{},["loader"]);</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  
+  <title> &#8211; Optometrist, Eye Doctor in Rohnert Park, CA | Vision Health Optometry</title>
+
+    <meta name="description" content="Just another FlexSite site">
+  <meta property="og:title" content=" &#8211; Optometrist, Eye Doctor in Rohnert Park, CA | Vision Health Optometry" />
+  <meta property="og:description"content="Just another FlexSite site"/>
+  <meta name="twitter:title" content=" &#8211; Optometrist, Eye Doctor in Rohnert Park, CA | Vision Health Optometry">
+  <meta name="twitter:description" content="Just another FlexSite site">
+  <meta name="distribution" content="Global">
+  <meta name="language" content="English">
+  <meta name="copyright" content="Vision Health Optometry">
+  <meta name="author" content="Vision Health Optometry">
+  <meta name="publisher" content="Vision Health Optometry">
+  <meta name="audience" content="All">
+  <meta name="geography" content="1440 Medical Center Dr., Ste. 2, Rohnert Park, CA 94928">
+  <meta name="city" content="Rohnert Park">
+  <meta name="country" content="United States">
+  <meta name="rating" content="General">
+
+  
+  <!-- Google Fonts -->
+  <script>
+    !function(e){"use strict";var n=function(n,t,o){var l,r=e.document,i=r.createElement("link");if(t)l=t;else{var a=(r.body||r.getElementsByTagName("head")[0]).childNodes;l=a[a.length-1]}var d=r.styleSheets;i.rel="stylesheet",i.href=n,i.media="only x",l.parentNode.insertBefore(i,t?l:l.nextSibling);var f=function(e){for(var n=i.href,t=d.length;t--;)if(d[t].href===n)return e();setTimeout(function(){f(e)})};return i.onloadcssdefined=f,f(function(){i.media=o||"all"}),i};"undefined"!=typeof module?module.exports=n:e.loadCSS=n}("undefined"!=typeof global?global:this);
+    loadCSS( '//fonts.googleapis.com/css?family=Open+Sans:400,300,700,600' );
+  </script>
+
+  <!-- Optimize CSS Delivery -->
+  <style>
+  .container{position:relative;width:auto;margin-left:20px;margin-right:20px;*zoom:1}.container:before,.container:after{content:"\0020";display:block;overflow:hidden;visibility:hidden;width:0;height:0}.container:after{clear:both}@media screen and (min-width:760px){.container{width:auto;max-width:1200px}}@media screen and (min-width:760px) and (min-width:1240px){.container{margin-left:auto;margin-right:auto}}@media screen and (min-width:990px){.container{margin-left:auto;margin-right:auto;width:960px;max-width:none}}@media screen and (min-width:1380px){.container{margin-left:auto;margin-right:auto;width:960px;max-width:none}}.row{position:relative;*zoom:1}.row:before,.row:after{content:"\0020";display:block;overflow:hidden;visibility:hidden;width:0;height:0}.row:after{clear:both}[class*="col-"]{position:relative;min-height:1px}html,body{width:100%;height:100%;overflow:hidden}body{background:#dfddd6}.inner-header,.inner-nav,.inner-banner,.inner-main,.inner-footer{position:relative;width:auto;margin-left:20px;margin-right:20px;*zoom:1}.inner-header:before,.inner-nav:before,.inner-banner:before,.inner-main:before,.inner-footer:before,.inner-header:after,.inner-nav:after,.inner-banner:after,.inner-main:after,.inner-footer:after{content:"\0020";display:block;overflow:hidden;visibility:hidden;width:0;height:0}.inner-header:after,.inner-nav:after,.inner-banner:after,.inner-main:after,.inner-footer:after{clear:both}@media screen and (min-width:760px){.inner-header,.inner-nav,.inner-banner,.inner-main,.inner-footer{width:auto;max-width:1200px}}@media screen and (min-width:760px) and (min-width:1240px){.inner-header,.inner-nav,.inner-banner,.inner-main,.inner-footer{margin-left:auto;margin-right:auto}}@media screen and (min-width:990px){.inner-header,.inner-nav,.inner-banner,.inner-main,.inner-footer{margin-left:auto;margin-right:auto;width:960px;max-width:none}}@media screen and (min-width:1380px){.inner-header,.inner-nav,.inner-banner,.inner-main,.inner-footer{margin-left:auto;margin-right:auto;width:960px;max-width:none}}.header{background:#dcb327}.header .logo{text-align:center;margin-top:0;margin-bottom:0;padding:15px 0;line-height:24px}.header .logo a{display:block;color:#fff}.header .logo a .name{display:block;font-size:22px;line-height:24px;margin-bottom:12px;text-transform:uppercase;letter-spacing:0}.header .logo a .member{display:block;font-size:14px;line-height:18px;font-weight:normal;color:#303030;text-transform:uppercase;letter-spacing:0}.header .logo a .member .vs-logo{background:url("/shared-assets/imgs/vs-logo-black.svg") no-repeat center center;background-size:154px 29px;position:relative;top:-15px;width:154px;height:29px;display:inline-block;margin:0 0 -15px 5px;text-indent:100%;white-space:nowrap;overflow:hidden}.header .logo a .member .vs-logo-custom{top:-11px}.ie8 .header .logo a .member .vs-logo{background-image:url("/shared-assets/imgs/vs-logo-black.png")}.header .logo-no-tagline a .name{font-size:24px;line-height:28px;margin:8px 0}.header .logo-small-tagline a .name{font-size:24px;line-height:28px;letter-spacing:-0.02em}.header .logo-small-tagline a .member{font-size:12px;line-height:18px}.header .actions{position:relative;display:block;text-align:center;margin:0 -20px;overflow:auto}.header .actions p{margin:0;display:table;width:100%}.header .actions p .btn{background:none;box-shadow:none;text-shadow:none;border:0 none;padding:0;border-radius:0;background-color:#e5c65d;background-color:rgba(255,255,255,0.25);-webkit-transition:all linear .25s;-moz-transition:all linear .25s;-o-transition:all linear .25s;transition:all linear .25s;font-size:12px;line-height:20px;font-weight:600;display:table-cell;padding:10px;margin:0;border-left:1px solid #dcb327;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}.header .actions p .btn:hover{background-color:#e5c65d;background-color:rgba(255,255,255,0.4)}.header .actions p .btn:first-child{margin:0;border-left:0 none}.header .actions p .btn i{position:relative;font-size:20px;margin-right:5px}.header .actions p .btn-contact .hide-mobile{display:none}.header .actions p .btn-contact i{left:0}.header .actions p .btn-phone{padding:12px 15px 8px}.header .actions p .btn-phone i{left:0;margin:0}.header .actions p .btn-phone-number{display:none !important}.header .actions p .btn-phone-number*{display:none !important}.header .actions p .btn-phone-number{display:none !important;background:none;position:relative;border:0 none;cursor:default;padding:0;margin:0 10px 0 0;color:#fff;font-weight:normal;font-size:22px;line-height:44px}.header .actions p .btn-phone-number:hover{background:none}.header .actions p a[href^=tel]{display:none}.header .actions p a[href^=tel].btn-phone-call{display:table-cell}#responsive .tablet .header .logo{text-align:left}#responsive .tablet .header .actions{float:right;padding:15px 0;margin:0 0 0 10px;text-align:right}#responsive .tablet .header .actions p .btn{font-size:14px;padding:15px 25px}#responsive .tablet .header .actions p .btn:first-child{border-top-left-radius:4px;border-bottom-left-radius:4px}#responsive .tablet .header .actions p .btn:last-child{border-top-right-radius:4px;border-bottom-right-radius:4px}#responsive .tablet .header .actions p .btn.btn-phone-number{font-weight:normal;font-size:22px;line-height:44px}#responsive .tablet .header .actions p .btn-shop{display:table-cell}#responsive .tablet .header .actions p .btn-contact .hide-mobile{display:inline}#responsive .desktop .header .actions p a[href^=tel]{display:inline-block;font-size:22px;line-height:44px;vertical-align:middle;border:0 none;color:#fff}#responsive .desktop .header .logo{padding:25px 0}#responsive .desktop .header .actions{padding:25px 0}#responsive .desktop .header .actions p{display:block}#responsive .desktop .header .actions p .btn{display:inline-block;margin:0 0 0 10px;padding:15px 30px;border-left:0 none;border-radius:4px}#responsive .desktop .header .actions p .btn.btn-phone{padding:0}#responsive .desktop .header .actions p .btn-phone-call{display:none !important}#responsive .desktop .header .actions p .btn-phone-number{display:inline-block !important}#responsive .desktop .header .actions p .btn-phone-number i{color:rgba(255,255,255,0.75)}.ie8 .header .actions p a[href^=tel]{display:inline-block;font-size:22px;line-height:44px;vertical-align:middle;border:0 none;color:#fff}.ie8 .header .logo{padding:25px 0}.ie8 .header .actions{padding:25px 0}.ie8 .header .actions p{display:block}.ie8 .header .actions p .btn{display:inline-block;margin:0 0 0 10px;padding:15px 30px;border-left:0 none;border-radius:4px}.ie8 .header .actions p .btn.btn-phone{padding:0}.ie8 .header .actions p .btn-phone-call{display:none !important}.ie8 .header .actions p .btn-phone-number{display:inline-block !important}.ie8 .header .actions p .btn-phone-number i{color:rgba(255,255,255,0.75)}.ie8 .visible-small{display:none !important}.ie8 .visible-mobile{display:none !important}.ie8 .visible-tablet{display:none !important}.ie8 .visible-desktop{display:block !important}.ie8 .visible-large{display:none !important}.ie8 .hidden-small{display:block !important}.ie8 .hidden-mobile{display:block !important}.ie8 .hidden-tablet{display:block !important}.ie8 .hidden-desktop{display:none !important}.ie8 .hidden-large{display:block !important}.ie8 .col-12{width:940px}.ie8 .col-11{width:860px}.ie8 .col-10{width:780px}.ie8 .col-9{width:700px}.ie8 .col-8{width:620px}.ie8 .col-7{width:540px}.ie8 .col-6{width:460px}.ie8 .col-5{width:380px}.ie8 .col-4{width:300px}.ie8 .col-3{width:220px}.ie8 .col-2{width:140px}.ie8 .col-1{width:60px}.ie8 .prefix-12{padding-left:960px}.ie8 .prefix-11{padding-left:880px}.ie8 .prefix-10{padding-left:800px}.ie8 .prefix-9{padding-left:720px}.ie8 .prefix-8{padding-left:640px}.ie8 .prefix-7{padding-left:560px}.ie8 .prefix-6{padding-left:480px}.ie8 .prefix-5{padding-left:400px}.ie8 .prefix-4{padding-left:320px}.ie8 .prefix-3{padding-left:240px}.ie8 .prefix-2{padding-left:160px}.ie8 .prefix-1{padding-left:80px}.ie8 .suffix-12{padding-right:960px}.ie8 .suffix-11{padding-right:880px}.ie8 .suffix-10{padding-right:800px}.ie8 .suffix-9{padding-right:720px}.ie8 .suffix-8{padding-right:640px}.ie8 .suffix-7{padding-right:560px}.ie8 .suffix-6{padding-right:480px}.ie8 .suffix-5{padding-right:400px}.ie8 .suffix-4{padding-right:320px}.ie8 .suffix-3{padding-right:240px}.ie8 .suffix-2{padding-right:160px}.ie8 .suffix-1{padding-right:80px}.ie8 [class*="col-"]{float:left;margin-left:10px;margin-right:10px}.ie8 .row .row [class*="col-"]:first-child,.ie8 .row .row [class*="col-"].alpha{margin-left:0}.ie8 .row .row [class*="col-"]:last-child,.ie8 .row .row [class*="col-"].omega{margin-right:0}.ie8 .row .row [class*="col-"]:first-child,.ie8 .row .row [class*="col-"].alpha{margin-right:10px}.ie8 .row .row [class*="col-"]:last-child,.ie8 .row .row [class*="col-"].omega{margin-left:10px}.visible-small{display:none !important}.visible-mobile{display:block !important}.visible-tablet{display:none !important}.visible-desktop{display:none !important}.visible-large{display:none !important}.hidden-small{display:block !important}.hidden-mobile{display:none !important}.hidden-tablet{display:block !important}.hidden-desktop{display:block !important}.hidden-large{display:block !important}@media screen and (max-width:480px){.visible-small{display:block !important}.visible-mobile{display:block !important}.visible-tablet{display:none !important}.visible-desktop{display:none !important}.visible-large{display:none !important}.hidden-small{display:none !important}.hidden-mobile{display:none !important}.hidden-tablet{display:block !important}.hidden-desktop{display:block !important}.hidden-large{display:block !important}}@media screen and (min-width:760px){.header .logo{text-align:left}.header .actions{float:right;padding:15px 0;margin:0 0 0 10px;text-align:right}.header .actions p .btn{font-size:14px;padding:15px 25px}.header .actions p .btn:first-child{border-top-left-radius:4px;border-bottom-left-radius:4px}.header .actions p .btn:last-child{border-top-right-radius:4px;border-bottom-right-radius:4px}.header .actions p .btn.btn-phone-number{font-weight:normal;font-size:22px;line-height:44px}.header .actions p .btn-shop{display:table-cell}.header .actions p .btn-contact .hide-mobile{display:inline}.visible-small{display:none !important}.visible-mobile{display:none !important}.visible-tablet{display:block !important}.visible-desktop{display:none !important}.visible-large{display:none !important}.hidden-small{display:block !important}.hidden-mobile{display:block !important}.hidden-tablet{display:none !important}.hidden-desktop{display:block !important}.hidden-large{display:block !important}.col-12{width:98%}.col-11{width:89.66666667%}.col-10{width:81.33333333%}.col-9{width:73%}.col-8{width:64.66666667%}.col-7{width:56.33333333%}.col-6{width:48%}.col-5{width:39.66666667%}.col-4{width:31.33333333%}.col-3{width:23%}.col-2{width:14.66666667%}.col-1{width:6.33333333%}.prefix-12{padding-left:100%}.prefix-11{padding-left:91.66666667%}.prefix-10{padding-left:83.33333333%}.prefix-9{padding-left:75%}.prefix-8{padding-left:66.66666667%}.prefix-7{padding-left:58.33333333%}.prefix-6{padding-left:50%}.prefix-5{padding-left:41.66666667%}.prefix-4{padding-left:33.33333333%}.prefix-3{padding-left:25%}.prefix-2{padding-left:16.66666667%}.prefix-1{padding-left:8.33333333%}.suffix-12{padding-right:100%}.suffix-11{padding-right:91.66666667%}.suffix-10{padding-right:83.33333333%}.suffix-9{padding-right:75%}.suffix-8{padding-right:66.66666667%}.suffix-7{padding-right:58.33333333%}.suffix-6{padding-right:50%}.suffix-5{padding-right:41.66666667%}.suffix-4{padding-right:33.33333333%}.suffix-3{padding-right:25%}.suffix-2{padding-right:16.66666667%}.suffix-1{padding-right:8.33333333%}[class*="col-"]{float:left;margin-left:1%;margin-right:1%}.row .row [class*="col-"]:first-child,.row .row [class*="col-"].alpha{margin-left:0}.row .row [class*="col-"]:last-child,.row .row [class*="col-"].omega{margin-right:0}.row .row [class*="col-"]:first-child,.row .row [class*="col-"].alpha{margin-right:2%}.row .row [class*="col-"]:last-child,.row .row [class*="col-"].omega{margin-left:2%}}@media screen and (min-width:990px){.header .actions p a[href^=tel]{display:inline-block;font-size:22px;line-height:44px;vertical-align:middle;border:0 none;color:#fff}.header .logo{padding:25px 0}.header .actions{padding:25px 0}.header .actions p{display:block}.header .actions p .btn{display:inline-block;margin:0 0 0 10px;padding:15px 30px;border-left:0 none;border-radius:4px}.header .actions p .btn.btn-phone{padding:0}.header .actions p .btn-phone-call{display:none !important}.header .actions p .btn-phone-number{display:inline-block !important}.header .actions p .btn-phone-number i{color:rgba(255,255,255,0.75)}.visible-small{display:none !important}.visible-mobile{display:none !important}.visible-tablet{display:none !important}.visible-desktop{display:block !important}.visible-large{display:none !important}.hidden-small{display:block !important}.hidden-mobile{display:block !important}.hidden-tablet{display:block !important}.hidden-desktop{display:none !important}.hidden-large{display:block !important}.col-12{width:940px}.col-11{width:860px}.col-10{width:780px}.col-9{width:700px}.col-8{width:620px}.col-7{width:540px}.col-6{width:460px}.col-5{width:380px}.col-4{width:300px}.col-3{width:220px}.col-2{width:140px}.col-1{width:60px}.prefix-12{padding-left:960px}.prefix-11{padding-left:880px}.prefix-10{padding-left:800px}.prefix-9{padding-left:720px}.prefix-8{padding-left:640px}.prefix-7{padding-left:560px}.prefix-6{padding-left:480px}.prefix-5{padding-left:400px}.prefix-4{padding-left:320px}.prefix-3{padding-left:240px}.prefix-2{padding-left:160px}.prefix-1{padding-left:80px}.suffix-12{padding-right:960px}.suffix-11{padding-right:880px}.suffix-10{padding-right:800px}.suffix-9{padding-right:720px}.suffix-8{padding-right:640px}.suffix-7{padding-right:560px}.suffix-6{padding-right:480px}.suffix-5{padding-right:400px}.suffix-4{padding-right:320px}.suffix-3{padding-right:240px}.suffix-2{padding-right:160px}.suffix-1{padding-right:80px}[class*="col-"]{float:left;margin-left:10px;margin-right:10px}.row .row [class*="col-"]:first-child,.row .row [class*="col-"].alpha{margin-left:0}.row .row [class*="col-"]:last-child,.row .row [class*="col-"].omega{margin-right:0}.row .row [class*="col-"]:first-child,.row .row [class*="col-"].alpha{margin-right:10px}.row .row [class*="col-"]:last-child,.row .row [class*="col-"].omega{margin-left:10px}}
+  </style>
+
+  <!-- Styles -->
+  <link rel="stylesheet" type="text/css" media="all" href="http://vision-health.com/wp-content/themes/fs1/assets/css/baseweb.min.css">
+  
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="http://vision-health.com/wp-content/themes/fs1/assets/img/favicon.png">
+
+  <!--[if lt IE 9]>
+  <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+  <script src="/shared-assets/js/respond.min.js"></script>
+  <![endif]-->
+
+  <!-- Meta and include from GFP -->
+
+  
+  <script type='text/javascript' src='http://vision-health.com/wp-includes/js/jquery/jquery.js?ver=1.12.3'></script>
+<script type='text/javascript' src='http://vision-health.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.0'></script>
+<link rel='https://api.w.org/' href='http://vision-health.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://vision-health.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://vision-health.com/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.5" />
+<script src='http://fs-1.net/?dm=dfb5d614bf44dd9f684713d25d1d8dec&amp;action=load&amp;blogid=2151&amp;siteid=1&amp;t=1320179803&amp;back=http%3A%2F%2Fvision-health.com%2Fwp-content%2Fuploads%2F2012%2F08%2FBells-palsy.png' type='text/javascript'></script>
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-75505219-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+  
+  
+  
+</head>
+<body class="error404 single-location">
+
+<div id="snap-content" class="snap-content">
+  <div id="top"></div>
+
+  <header class="header">
+    <div class="inner-header">
+
+      <div class="actions">
+        <p>
+
+          <a href="#" id="btn-drawer-trigger" class="btn btn-drawer-trigger">Menu</a>
+
+                      <a class="btn btn-phone btn-phone-number"><i class="icon-phone"></i> (707) 206-0290</a>
+            <a href="tel:707-206-0290" class="btn btn-phone btn-phone-call"><i class="icon-phone"></i> Call</a>
+          
+          
+          <a href="https://www.websystem3.com/dradmin/Online_Appointment_Request_WS3.asp?uid=2E85A44F-32D0-4070-A900-C482740F6162"  target="_blank" class="btn btn-appointments"><i class="icon-calendar"></i> Appointments</a>
+
+        </p>
+      </div>
+
+      
+<h3 class="logo logo-small-tagline">
+  <a href="/">
+    <span class="name">Vision Health Optometry</span>
+        <span class="member">Member <span class="vs-logo vs-logo-custom">Vision Source</span> Network</span>
+      </a>
+</h3>
+
+    </div><!-- .inner-header -->
+  </header><!-- .header -->
+
+  <nav id="nav" class="nav">
+    <div class="container inner-nav">
+      <ul class="grid-12">
+        <li class="menu-icon menu-icon-home"><a href="/">Home</a></li>
+        <li class="page_item page-item-2 page_item_has_children"><a href="/about-us/">About Us</a>
+<ul class='children'>
+	<li class="page_item page-item-11"><a href="/about-us/doctors-staff/">Doctors &amp; Staff</a></li>
+</ul>
+</li>
+<li class="page_item page-item-8 page_item_has_children"><a href="/vision-care-products/">Vision Care &amp; Products</a>
+<ul class='children'>
+	<li class="page_item page-item-12"><a href="/vision-care-products/lenses-and-frames/">Lenses and Frames</a></li>
+	<li class="page_item page-item-13"><a href="/vision-care-products/contacts/">Contacts</a></li>
+	<li class="page_item page-item-14"><a href="/vision-care-products/vision-correction/">Vision Correction</a></li>
+	<li class="page_item page-item-15"><a href="/vision-care-products/eye-conditions/">Eye Conditions</a></li>
+	<li class="page_item page-item-16"><a href="/vision-care-products/eye-diseases/">Eye Diseases</a></li>
+	<li class="page_item page-item-17"><a href="/vision-care-products/vision-problems/">Vision Problems</a></li>
+</ul>
+</li>
+<li class="page_item page-item-4"><a href="/promotions/">Promotions</a></li>
+<li class="page_item page-item-5 page_item_has_children"><a href="/patients/">Patients</a>
+<ul class='children'>
+	<li class="page_item page-item-18"><a href="/patients/insurance-information/">Insurance Information</a></li>
+	<li class="page_item page-item-19"><a href="/patients/patient-forms/">Patient Forms</a></li>
+	<li class="page_item page-item-41"><a href="/patients/reviews/">Leave Us a Review</a></li>
+</ul>
+</li>
+<li class="page_item page-item-9 current_page_parent"><a href="/blog/">Blog</a></li>
+<li class="page_item page-item-10"><a href="/contact/">Contact</a></li>
+      </ul><!-- .inner-nav -->
+    </div>
+  </nav><!-- .nav -->
+
+<div class="main main-subpage main-404">
+    <div class="inner-main">
+        
+        <div class="content-404">
+          
+          <h1><i class="icon-warning-sign"></i> 404 - Nothing Found</h1>
+          <p>This page may have moved or is no longer available. Please try one of the following:</p>	
+        	<ul>
+        		<li>Check the Web address you entered to make sure if it's correct.</li>
+        		<li>Try to access the page directly from the <a href="http://vision-health.com">Vision Health Optometry</a> home page instead of using a bookmark. If the page has moved, reset your bookmark.</li>
+        	</ul>
+            
+        </div><!-- .content -->
+        
+                
+    </div><!-- .inner-main -->
+</div><!-- .main -->
+
+
+    <footer class="footer">
+        <div class="inner-footer">
+
+            <div class="footer-content">
+                <div class="recent-blog hidden-mobile">
+                    <h2>From the Blog</h2>
+                    <ul>
+                                  	        <li><a href="/2016/04/13/a-brief-history-of-contact-lenses/"><span class="timestamp">4.13.16</span>A Brief History Of Contact Lenses</a></li>
+                                  	        <li><a href="/2016/03/23/keep-your-glasses-looking-like-new/"><span class="timestamp">3.23.16</span>Keep Your Glasses Looking Like New</a></li>
+                                  	        <li><a href="/2016/03/09/helping-your-child-adjust-to-glasses/"><span class="timestamp">3.9.16</span>Helping Your Child Adjust To Glasses</a></li>
+                                  	        <li><a href="/2016/03/06/what-if-we-had-a-choice/"><span class="timestamp">3.6.16</span>What if we had a choice?</a></li>
+                                        </ul>
+                </div>
+
+                <div class="quick-links hidden-mobile">
+                    <h2>Quick Links</h2>
+                    <ul>
+                        <li class="page_item page-item-1"><a href="/">Home</a></li>
+<li class="page_item page-item-2 page_item_has_children"><a href="/about-us/">About Us</a></li>
+<li class="page_item page-item-8 page_item_has_children"><a href="/vision-care-products/">Vision Care &amp; Products</a></li>
+<li class="page_item page-item-4"><a href="/promotions/">Promotions</a></li>
+<li class="page_item page-item-5 page_item_has_children"><a href="/patients/">Patients</a></li>
+<li class="page_item page-item-9 current_page_parent"><a href="/blog/">Blog</a></li>
+<li class="page_item page-item-10"><a href="/contact/">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="contact-us vcard">
+                    <h2>Contact Us</h2>
+
+                    
+                    <p class="adr">
+                        <span class="name fn org">Vision Health Optometry</span><br>                        <a href="https://maps.google.com/maps?ie=UTF8&amp;q=Vision+Health+Optometry,+1440+Medical+Center+Dr.,+Ste.+2,+Rohnert+Park,+CA+94928&amp;fb=1&amp;gl=us&amp;hq=Vision+Health+Optometry,+1440+Medical+Center+Dr.,+Ste.+2,+Rohnert+Park,+CA+94928&amp;t=m&amp;z=16&amp;iwloc=A&amp;" target="_blank">
+                        <span class="street-address">1440 Medical Center Dr., Ste. 2</span>                        <br />                        <span class="locality">Rohnert Park</span>,                         <span class="region">CA</span>                                                  <span class="postal-code">94928</span>                        </a>
+                    </p>
+                    <p>
+                        <strong>Phone</strong> (707) 206-0290                                                                                                <br />
+                                                <strong>Fax</strong> 707-585-8018                    </p>
+
+                    <span class="geo">
+                        <span class="latitude">
+                            <span class="value-title" title=""></span>
+                        </span>
+                        <span class="longitude">
+                            <span class="value-title" title=""></span>
+                      </span>
+                    </span>
+
+                
+                    <ul class="social-links">
+                        <li><a class="icon icon-facebook" target="_blank" href="https://www.facebook.com/VisionHealthOptometry/"></a></li>                        <li><a class="icon icon-twitter" target="_blank" href="https://twitter.com/VisionHealthOpt"></a></li>                                                                        <li><a class="icon icon-google" target="_blank" href="https://plus.google.com/107039360027252575089/about"></a></li>                        <li><a class="icon icon-yelp" target="_blank" href="http://www.yelp.com/biz/vision-health-optometry-rohnert-park"></a></li>                                                                                                                    </ul>
+
+                </div>
+            </div>
+
+            <div class="copyright">
+
+                
+                <p>
+                    Copyright &copy; 2016 <a href="/" class="company-title">Vision Health Optometry</a>. All rights reserved.<br>
+                    <a href="/privacy-policy/">Privacy Policy</a> | Website by <a href="http://avelient.co" target="_blank" title="Powered by Avelient">Avelient</a>.
+                </p>
+                <p class="visible-mobile"><a href="#top" class="back-to-top">Back to top</a></p>
+
+            </div>
+
+        </div><!-- .inner-footer -->
+    </footer><!-- .footer -->
+
+</div><!-- .snap-content -->
+
+<div class="snap-drawers">
+    <div class="snap-drawer snap-drawer-left">
+
+        <nav id="snap-drawer-nav" class="snap-drawer-item snap-drawer-nav">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li class="page_item page-item-2 page_item_has_children"><a href="/about-us/">About Us</a>
+<ul class='children'>
+	<li class="page_item page-item-11"><a href="/about-us/doctors-staff/">Doctors &amp; Staff</a></li>
+</ul>
+</li>
+<li class="page_item page-item-8 page_item_has_children"><a href="/vision-care-products/">Vision Care &amp; Products</a>
+<ul class='children'>
+	<li class="page_item page-item-12"><a href="/vision-care-products/lenses-and-frames/">Lenses and Frames</a></li>
+	<li class="page_item page-item-13"><a href="/vision-care-products/contacts/">Contacts</a></li>
+	<li class="page_item page-item-14"><a href="/vision-care-products/vision-correction/">Vision Correction</a></li>
+	<li class="page_item page-item-15"><a href="/vision-care-products/eye-conditions/">Eye Conditions</a></li>
+	<li class="page_item page-item-16"><a href="/vision-care-products/eye-diseases/">Eye Diseases</a></li>
+	<li class="page_item page-item-17"><a href="/vision-care-products/vision-problems/">Vision Problems</a></li>
+</ul>
+</li>
+<li class="page_item page-item-4"><a href="/promotions/">Promotions</a></li>
+<li class="page_item page-item-5 page_item_has_children"><a href="/patients/">Patients</a>
+<ul class='children'>
+	<li class="page_item page-item-18"><a href="/patients/insurance-information/">Insurance Information</a></li>
+	<li class="page_item page-item-19"><a href="/patients/patient-forms/">Patient Forms</a></li>
+	<li class="page_item page-item-41"><a href="/patients/reviews/">Leave Us a Review</a></li>
+</ul>
+</li>
+<li class="page_item page-item-9 current_page_parent"><a href="/blog/">Blog</a></li>
+<li class="page_item page-item-10"><a href="/contact/">Contact</a></li>
+            </ul><!-- .inner-nav -->
+        </nav>
+
+        <div class="snap-drawer-item snap-drawer-social">
+            <ul class="social-links">
+                <li><a class="icon icon-facebook" target="_blank" href="https://www.facebook.com/VisionHealthOptometry/"></a></li>                <li><a class="icon icon-twitter" target="_blank" href="https://twitter.com/VisionHealthOpt"></a></li>                                                <li><a class="icon icon-google" target="_blank" href="https://plus.google.com/107039360027252575089/about"></a></li>                <li><a class="icon icon-yelp" target="_blank" href="http://www.yelp.com/biz/vision-health-optometry-rohnert-park"></a></li>                                                                            </ul>
+        </div>
+
+    </div>
+    <div class="snap-drawer snap-drawer-right"></div>
+</div>
+
+<!-- JavaScript -->
+<script src="http://vision-health.com/wp-content/themes/fs1/assets/js/scripts.min.js"></script>
+
+<link rel='stylesheet' id='fancybox-style-css'  href='http://fs-1.net/shared-assets/js/fancybox/source/jquery.fancybox.css?ver=4.5' type='text/css' media='all' />
+<link rel='stylesheet' id='fittingbox-iframe-style-css'  href='http://fs-1.net/shared-assets/css/fittingbox-iframe.css?ver=4.5' type='text/css' media='all' />
+<script type='text/javascript' src='http://vision-health.com/wp-includes/js/wp-embed.min.js?ver=4.5'></script>
+<script type='text/javascript' src='http://fs-1.net/shared-assets/js/fancybox/source/jquery.fancybox.js?ver=2.1.5'></script>
+<script type='text/javascript' src='http://fs-1.net/shared-assets/js/jquery.fancybox-call.js?ver=1.0.4'></script>
+
+<script type="text/javascript">
+    var _gauges = _gauges || [];
+    (function() {
+    var t   = document.createElement('script');
+    t.type  = 'text/javascript';
+    t.async = true;
+    t.id  = 'gauges-tracker';
+    t.setAttribute('data-site-id', '51bb9e16108d7b596800002d');
+    t.src = '//secure.gaug.es/track.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(t, s);
+    })();
+</script>
+
+
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"4b78212cd0","applicationID":"5928845","transactionName":"YVxXYkVUD0ZYABFcWVgWdFVDXA5bFldVAQ==","queueTime":0,"applicationTime":568,"atts":"TRtUFA1OHEg=","errorBeacon":"bam.nr-data.net","agent":""}</script></body>
+</html>
